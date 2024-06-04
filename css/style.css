@@ -1,0 +1,133 @@
+:root{
+    --accent-color:#2196F3;
+  --logo-color: #000;
+  --text-color:#212121;
+  --additional-color: #757575;
+  --footer-namber:rgba(255, 255, 255, 0.60);
+  --footer-background: #2F303A;
+  --team-background:#F5F4FA;
+  --main-background:#FFF;
+
+  }
+
+body {
+
+    font-family:'Raleway', sans-serif; 
+   font-size: 14px;
+   }
+
+.section-black,
+footer {
+    background-color:var(--footer-background);
+    color:var(--main-background);
+    text-transform: none; 
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--main-background);
+    text-transform: none; 
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36;  
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header-blue,
+.blue2 {
+    color: var(--accent-color);
+}
+
+.header-black2 {
+    color:var(--logo-color);
+}
+
+.footer-link {
+    color:var(--main-background);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.address-link {
+    color: var(--main-background);
+}
+.footer-link {
+color: var(--footer-namber);
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);}
+
+.footer-web {
+    color: var(--accent-color);
+}
+.footer-studio {
+    color: var(--main-background);
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 44px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44;
+    line-height: 1.36;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.link-stydio,
+.list,
+.team-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.heder-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}

@@ -1,0 +1,86 @@
+:root{
+    --accent-color:#2196F3;
+  --logo-color: #000;
+  --text-color:#212121;
+  --additional-color: #757575;
+  --footer-namber:rgba(255, 255, 255, 0.60);
+  --footer-background: #2F303A;
+  --team-background:#F5F4FA;
+  --main-background:#FFF;
+  
+  }
+  
+  footer{
+      background-color:var(--footer-background);
+      color: white;
+  }
+  .card-item button:hover {
+      background-color:var(--accent-color);
+  }
+  
+  button {
+    font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+  }
+  
+  .header-blue {
+      color: var(--accent-color);
+    }
+    
+    .header-black2 {
+      color: var(--logo-color);
+    }
+  
+    .nav-link {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    h3 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  
+    .footer-logo {
+      color: var(--main-background);
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+  }
+  
+  .footer-web {
+      color: var(--accent-color);
+  }
+  .footer-studio {
+      color: var(--main-background);
+  }
+  
+  .footer-link {
+    color:var(--footer-namber);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+    .address-link {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400; 
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--main-background);
+    }
+  
