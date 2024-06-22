@@ -1,37 +1,21 @@
-*{
-    box-sizing: border-box;
-}
 
 h1, h2, h3, h4, h5, h6, p{
 margin: 0px;
 }
 
-ul, ol{
+ul{
 margin: 0px;
 padding: 0px;
 list-style: none;
 }
 
-a{
-text-decoration: none;
-}
-
-nav {
-    display: flex;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav li {
-    margin-right: 10px;
-}
-
-nav a {
+a {
     text-decoration: none;
-    color: inherit;
 }
+
+img{
+    display: block;
+}
+
+
+
