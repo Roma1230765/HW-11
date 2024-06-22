@@ -73,10 +73,6 @@
       color: inherit;
   }
   
-  a {
-      text-decoration: none;
-  }
-  
   .contact-item:hover {
     color: var(--accent-color);
   }
